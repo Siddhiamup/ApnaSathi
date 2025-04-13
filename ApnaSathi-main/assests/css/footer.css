@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/* Universal selector */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 10px;
+  background: #fff;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Stack items vertically */
+}
+
+footer .foot {
+  width: 100%;
+  max-width: 1200px; /* Limit the width of the content */
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr; /* 2fr for About Us, rest equal */
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+footer .foot .sec.aboutus {
+  text-align: left; /* Align About Us section to the left */
+}
+
+footer .foot .sec h2 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer .foot .sec p {
+  color: #555;
+}
+
+footer .foot .sci {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start; /* Align social icons to the left */
+}
+
+footer .foot .sci li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+footer .foot .sci li a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #333;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+footer .foot .quicklinks, 
+footer .foot .contact {
+  text-align: center; /* Keep other sections centered */
+}
+
+footer .foot .quicklinks ul, 
+footer .foot .contact .info {
+  padding-left: 0;
+}
+
+footer .foot .quicklinks ul li, 
+footer .foot .contact .info li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+footer .foot .quicklinks ul li a, 
+footer .foot .contact .info li a {
+  color: #555;
+  text-decoration: none;
+}
+
+footer .foot .contact .info li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .foot .contact .info li span {
+  color: #555;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.copyrightText {
+  background: #fff;
+  padding: 20px 100px 30px;;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: #555;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  footer .foot {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  footer .foot {
+    grid-template-columns: 1fr; /* One column on mobile */
+  }
+}

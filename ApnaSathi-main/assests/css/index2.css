@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+/* Main menu hover to show submenu */
+
+.para{
+   
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body {
+      
+        min-height: 100vh; /* Changed '100h' to '100vh' for full viewport height */
+        background: #e8e8e8; /* Removed invalid character '•' */
+    background-size: cover;
+  
+   
+   
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%; 
+    min-height: 100vh;
+    /*   /* Remove any default padding */
+     /* Prevent scrolling */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+    position: relative;
+ 
+}
+

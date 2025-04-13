@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+ 
+ 
+   
+
+}
+/* Main menu hover to show submenu */
+
+.p{
+   
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body {
+      
+        min-height: 100vh; /* Changed '100h' to '100vh' for full viewport height */
+        background: #e8e8e8; /* Removed invalid character '•' */
+    background-size: cover;
+  
+   
+   
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%; 
+    min-height: 100vh;
+    /*   /* Remove any default padding */
+     /* Prevent scrolling */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   
+    position: relative;
+ 
+}
+
+
+.slider {
+
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+figure {
+    position: relative;
+    left: 2;
+    width: 400%;
+    /* width dikali slide */
+    animation: 25s slide infinite;
+}
+
+.slide {
+    position: relative;
+    width: 25%;
+    /* width dibagi slide */
+    float: left;
+}
+
+.slide h1 {
+    position: absolute;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slide img {
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+
+    10% {
+        left: 0;
+    }
+
+    20% {
+        left: -100%;
+    }
+
+    30% {
+        left: -100%;
+    }
+
+    40% {
+        left: -200%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    55% {
+        left: -300%;
+    }
+
+    65% {
+        left: -300%;
+    }
+
+    66% {
+        left: -200%;
+    }
+
+    74% {
+        left: -200%;
+    }
+
+    75% {
+        left: -100%;
+    }
+
+    85% {
+        left: -100%;
+    }
+
+    90% {
+        left: 0;
+    }
+
+    1000% {
+        left: 0;
+    }
+}
+
+/*FOOTER CODE*/

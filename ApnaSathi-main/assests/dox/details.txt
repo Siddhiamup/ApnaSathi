@@ -1,0 +1,8 @@
+email: apnasathi1010@gmail.com
+password: php_mail@1234
+google password: bxnc tasd wpqs gsge
+
+site key: 6LdN_VcqAAAAAHHzDK35D8wIvE4QzSy-PkEBZbah
+
+secret key: 6LdN_VcqAAAAAM-R0zw7yT9tvjxhb7pLJKdNUgpw
+

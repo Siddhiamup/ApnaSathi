@@ -1,0 +1,130 @@
+body{
+    padding:0;
+    margin:0;   
+}
+.middle{
+    position: relatives;
+    text-align: center;  
+    padding: 90px 0;
+}
+.btn{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -15px #00000070;
+    color: #3498db;
+    overflow:hidden;
+    position: relative;
+}
+.btn i{
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;   
+}
+.btn:hover i{
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btn::before{
+    content:"" ;
+    position:absolute;
+    width:120%;
+    height: 120%;
+    background: #3498db;
+    transform:rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;  
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }50%{
+        left: 10%;
+        top: -30%;
+    }100%{
+        top: -10%;
+        left: -10%;
+    }
+}
+body {
+    margin:0%;
+    padding: 0%;
+    font-family: 'Source San Pro';
+    background: #282828;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size:400% 400%;
+    animation: Gradient 15s ease infinite;
+    min-height: 100vh;
+    overflow-x:hidden;
+  }
+@keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  footer {
+    background-color: rgb(239, 229, 224); 
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  footer.container{
+    max-width: 1200 px;
+    margin: 0 auto;
+  }
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+ footer a {
+    color: #686b6e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #0056b3;
+  }
+  header {
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+nav {
+    display: inline-block; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #a48080f1; 
+    padding: 5px 10px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #a39292; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+nav a:hover {
+  background-color: #9bd1d9; 
+}
+.logo-container {
+  display: flex;
+  align-items: left;
+}

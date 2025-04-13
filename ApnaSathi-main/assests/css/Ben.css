@@ -1,0 +1,121 @@
+.lbl {
+   color: black;
+}
+
+body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   overflow: hidden;
+}
+
+html {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.img-bg {
+   background-image: url("../img/Form_Background_Image.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   position: relative;
+}
+
+.blur {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url("../img/Form_Background_Image.jpg");
+   background-size: cover;
+   background-position: center;
+   filter: blur(20px);
+   z-index: -1;
+   opacity: 0.5;
+   -webkit-filter: blur(20px); /* Safari */
+    -moz-filter: blur(20px); /* Firefox */
+    -o-filter: blur(20px); /* Opera */
+    -ms-filter: blur(20px); /* IE */
+}
+
+.block {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(255, 255, 255, 0.9);
+   padding: 40px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   width: 80%;
+   max-width: 800px;
+   min-width: 300px;
+}
+
+header {
+   background-color: #bec2b8ee;
+   color: black;
+   text-align: center;
+   padding: 20px 0;
+   z-index: 1;
+}
+
+main {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+form .form-control {
+   margin-bottom: 15px;
+   padding: 10px;
+}
+
+form .form-control::placeholder {
+   color: #6c757d;
+   opacity: 1;
+}
+
+footer {
+   text-align: center;
+   background-color: #bec2b8ee;
+   color: black;
+   padding: 7px 0;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   z-index: 2;
+}
+
+nav {
+   display: inline-block;
+}
+
+nav a {
+   text-decoration: none;
+   color: #a48080f1;
+   padding: 5px 10px;
+   background-color: #f0f0f0;
+   border: 1px solid #a39292;
+   border-radius: 5px;
+   transition: background-color 0.3s;
+}
+
+nav a:hover {
+   background-color: #7eceda;
+}
+
+.logo-container {
+   display: flex;
+   align-items: left;
+}

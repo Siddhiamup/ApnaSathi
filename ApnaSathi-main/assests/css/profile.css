@@ -1,0 +1,64 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 0;
+}
+
+/* Centering the container and styling it */
+.container {
+    max-width: 800px;
+    margin: 20% auto;
+    padding: 20%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading style */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form group styling for spacing */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Input styling for text, date, and telephone fields */
+input[type="text"], input[type="date"], input[type="tel"] {
+    width: 40%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Submit button styling */
+button {
+    width: 5%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+    background-color: #45a049;
+}
